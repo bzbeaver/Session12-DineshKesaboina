@@ -7,8 +7,8 @@ def tanh(theta):
            theta: angle in degrees
        Returns: tanh theta value
        '''
-    print(f'tanh value : {math.tanh(theta)}')
-    return math.tanh(theta)
+    print(f'tanh value : {math.tanh(math.radians(theta))}')
+    return math.tanh(math.radians(theta))
 
 def dtanh(theta):
     '''
@@ -17,5 +17,5 @@ def dtanh(theta):
            theta: angle in degrees
        Returns: derivative of tanh
        '''
-    print(f'derivative of tanh : {1 - math.tanh(theta)**2}')
-    return (1 - math.tanh(theta)**2)
+    print(f'derivative of tanh : {1 - math.tanh(math.radians(theta))**2}')
+    return (1 - math.tanh(math.radians(theta))**2)

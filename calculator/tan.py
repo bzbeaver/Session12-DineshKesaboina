@@ -1,15 +1,16 @@
 # imports
+from math import tan, radians
 import mpmath
 
-def tan(theta):
+def tan_(theta):
     '''
        function to calculate tan of an angle in radians
        Args:
            theta: angle in degrees
        Returns: tan theta value
        '''
-    print(f'tan theta : {mpmath.tan(mpmath.radians(theta))}')
-    return mpmath.tan(mpmath.radians(theta))
+    print(f'tan theta : {tan(radians(theta))}')
+    return tan(radians(theta))
 
 def dtan(theta):
     '''
