@@ -78,8 +78,8 @@ def test_dcos():
 def test_tan():
     assert calculator.tan_(45) == 0.9999999999999999
     
-def test_tanh_():
-    assert calculator.tanh_(30) == 0.48047277815645156
+# def test_tanh_():
+#     assert calculator.tanh_(30) == 0.48047277815645156
     
 def test_dtanh_without_from():
     with pytest.raises(AttributeError):
