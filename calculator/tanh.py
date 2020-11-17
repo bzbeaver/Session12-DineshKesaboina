@@ -1,6 +1,6 @@
 import math
 
-def tanh(theta):
+def tanh_(theta):
     '''
        function to calculate tanh of an angle in radians
        Args:
