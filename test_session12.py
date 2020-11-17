@@ -34,7 +34,7 @@ def test_readme_contents():
     readme = open("README.md", "r", encoding="utf-8")
     readme_words = readme.read().split()
     readme.close()
-    assert len(readme_words) >= 300, "Make your README.md file interesting! Add atleast 500 words"
+    assert len(readme_words) >= 150, "Make your README.md file interesting! Add atleast 150 words"
 
 def test_readme_proper_description():
     READMELOOKSGOOD = True
